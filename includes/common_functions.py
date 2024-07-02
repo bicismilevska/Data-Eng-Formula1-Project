@@ -35,5 +35,3 @@ def df_column_to_list(input_df, column_name):
   column_value_list = [row[column_name] for row in df_row_list]
   return column_value_list
 
-# COMMAND ----------
-
